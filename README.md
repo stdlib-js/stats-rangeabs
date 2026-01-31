@@ -52,7 +52,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 To use in Observable,
 
 ```javascript
-rangeabs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@umd/browser.js' )
+rangeabs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -64,7 +64,7 @@ var rangeabs = require( 'path/to/vendor/umd/stats-rangeabs/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -233,7 +233,7 @@ The method accepts the following options:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
