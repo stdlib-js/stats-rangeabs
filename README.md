@@ -50,7 +50,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import rangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@deno/mod.js';
+import rangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@v0.1.0-deno/mod.js';
 ```
 
 #### rangeabs( x\[, options] )
@@ -206,7 +206,7 @@ The method accepts the following options:
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@deno/mod.js';
 import getDType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import rangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@deno/mod.js';
+import rangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-rangeabs@v0.1.0-deno/mod.js';
 
 // Generate an array of random numbers:
 var x = uniform( [ 5, 5 ], 0.0, 20.0 );
